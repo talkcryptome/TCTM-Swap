@@ -4,7 +4,7 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 // import { bsc, fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 import { injected, bsc } from '../connectors'
 // TODO
-export const ROUTER_ADDRESS = '0x392C148b1c5f276a2867B79d34648cf951468aAC'
+export const ROUTER_ADDRESS = '0x756E44844d3b433bb5D4B7E1d1035B85C8BAD886'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -17,7 +17,7 @@ export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff7754852469990
 export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423a2edccbd6', 18, 'EOS', 'EOS Token')
 export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
-export const TCTM = new Token(ChainId.MAINNET, '0x9066e87Bac891409D690cfEfA41379b34af06391', 18, 'TCTM', 'TCTM Token')
+export const TCTM = new Token(ChainId.MAINNET, '0xBCFeDe73a76E2294B82d28c2737F9eECdf0342eB', 18, 'TCTM', 'TCTM Token')
 export const USDC = new Token(ChainId.MAINNET, '0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d', 18, 'USDC', 'USDC Token')
 
 const WETH_ONLY: ChainTokenList = {

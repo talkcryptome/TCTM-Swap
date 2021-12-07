@@ -11,6 +11,13 @@
   "keywords": ["pancake", "default"],
   "tokens": [
     {
+      "name": "Talk Crypto To Me",
+      "symbol": "TCTM",
+      "address": "0xBCFeDe73a76E2294B82d28c2737F9eECdf0342eB",
+      "chainId": 56,
+      "decimals": 18
+    },
+    {
       "name": "Taco",
       "symbol": "TACO",
       "address": "0x9066e87Bac891409D690cfEfA41379b34af06391",
