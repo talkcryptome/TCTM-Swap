@@ -1982,9 +1982,9 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap-libs/uikit@tacofinance/tacoswap-uikit":
+"@pancakeswap-libs/uikit@talkcryptome/TCTM-UIKit":
   version "0.10.2"
-  resolved "https://codeload.github.com/tacofinance/tacoswap-uikit/tar.gz/81f8a4af1a98ecfa4e4dea22083e88777bd1af3a"
+  resolved "https://codeload.github.com/talkcryptome/TCTM-UIKit/tar.gz/ca1f16700e37b3754bc1cefbe040bbc7bb4ce5c5"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

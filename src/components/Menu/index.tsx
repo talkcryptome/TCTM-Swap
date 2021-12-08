@@ -17,7 +17,7 @@ const Menu: React.FC = props => {
   return (
     <UikitMenu
       links={links}
-      priceLink="https://www.coingecko.com/en/coins/goose-finance"
+      priceLink="www.talkcryptotome.com"
       account={account as string}
       login={(connectorId: ConnectorId) => {
         if (connectorId === 'walletconnect') {
@@ -36,7 +36,7 @@ const Menu: React.FC = props => {
       currentLang={selectedLanguage?.code || ''}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      // cakePriceUsd={tctmPriceUsd}
+      cakePriceUsd={tctmPriceUsd}
       {...props}
     />
   )
