@@ -12,24 +12,54 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.talkcryptotome.com/',
+        href: 'https://exchange.talkcryptotome.com/#/exchange',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.talkcryptotome.com/#/pool',
+        href: 'https://exchange.talkcryptotome.com/#/liquidity',
       },
     ],
   },
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://talkcryptotome.com/farms',
+    href: 'https://talkcryptotome.com/farm',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
     href: 'https://talkcryptotome.com/pool',
   },
+  {
+    label: 'Vault',
+    icon: 'MoonIcon',
+    href: 'https://talkcryptotome.com/vault',
+  },
+  {
+    label: 'Bridge',
+    icon: 'TicketIcon',
+    href: 'https://talkcryptotome.com/bridge',
+  },
+  {
+    label: 'Aggregator',
+    icon: 'SunIcon',
+    href: 'https://talkcryptotome.com/tin',
+  },
+  {
+    label: 'Charts',
+    icon: 'HamburgerIcon',
+    items: [
+      {
+        label: 'DexGuru',
+        href: 'https://talkcryptotome.com/dex',
+      },
+      {
+        label: 'PooCoins',
+        href: 'https://talkcryptotome.com/poo',
+      },
+    ],
+  },
+
   
 ]
 
